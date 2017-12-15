@@ -1,0 +1,27 @@
+{
+  "name": "botkit-storage-cloudant",
+  "version": "1.0.0",
+  "description": "A Cloudant storage driver for Botkit",
+  "scripts": {
+    "test": "node test/storage_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibm-cio/botkit-storage-cloudant.git"
+  },
+  "keywords": [
+    "botkit",
+    "cloudant"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "unit.js": "^2.0.0"
+  },
+  "dependencies": {
+    "cloudant": "^1.10.0"
+  }
+}
