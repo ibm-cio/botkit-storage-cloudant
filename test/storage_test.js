@@ -53,6 +53,9 @@ console.log('If no asserts failed then the test has passed!');
 // Test simple_storage
 const cloudantStorage = require('../lib/storage.js')({
   url: 'http://admin:pass@localhost:8080',
+  plugins: {
+    retry: {}
+  }
 });
 
 testStorageMethod(cloudantStorage.users);
