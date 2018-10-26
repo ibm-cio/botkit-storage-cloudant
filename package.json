@@ -17,12 +17,12 @@
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^5.8.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.13.0",
     "unit.js": "^2.0.0"
   },
   "dependencies": {
-    "@cloudant/cloudant": "^2.3.0"
+    "@cloudant/cloudant": "^2.4.0"
   }
 }
