@@ -2,6 +2,7 @@
   "name": "botkit-storage-cloudant",
   "version": "1.0.0",
   "description": "A Cloudant storage driver for Botkit",
+  "main": "lib/storage.js",
   "scripts": {
     "test": "node test/storage_test.js"
   },
